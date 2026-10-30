@@ -4,28 +4,28 @@
 class AgentKeepalive < Formula
   desc "Keeps the prompt caches of chosen Claude Code and Codex sessions warm"
   homepage "https://agent-keepalive.gurupras.me"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.1/agent-keepalive_0.3.1_darwin_arm64.tar.gz"
-      sha256 "8bfa159bd35c1633ece329f5e0b9be7e650db70285f5611f1466a7caf15fc3df"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.2/agent-keepalive_0.3.2_darwin_arm64.tar.gz"
+      sha256 "a2864764046f2359f3c82bfd114444c35968bc565b7c215622a346192418e454"
     end
     on_intel do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.1/agent-keepalive_0.3.1_darwin_amd64.tar.gz"
-      sha256 "52fb9b698ffc99c421276d41e0ddfe185a7141de3e17872d6f0cf934e65573f7"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.2/agent-keepalive_0.3.2_darwin_amd64.tar.gz"
+      sha256 "a27e457e33cf799c1d63e698775cabfcc9657940440605c5960e8de99b7d2676"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.1/agent-keepalive_0.3.1_linux_arm64.tar.gz"
-      sha256 "d64a44335fbab3593862a7585c8d881d1be2a8a0a7b5f465b032f120e3ddfe0e"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.2/agent-keepalive_0.3.2_linux_arm64.tar.gz"
+      sha256 "a2da929e8facc54069b762f77380cb2a94ee94b89c6fef4b340574d7036d5707"
     end
     on_intel do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.1/agent-keepalive_0.3.1_linux_amd64.tar.gz"
-      sha256 "982119c36f9e97fa75918187c058b44a829360084b5ab066a58e88c7bb6b752a"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.3.2/agent-keepalive_0.3.2_linux_amd64.tar.gz"
+      sha256 "c7f991d1b6a2edb6bfa97280cac4725d609d48e5db35454dbf03406fd1ed8f76"
     end
   end
 
