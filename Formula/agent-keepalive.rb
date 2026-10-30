@@ -4,28 +4,28 @@
 class AgentKeepalive < Formula
   desc "Keeps the prompt caches of chosen Claude Code and Codex sessions warm"
   homepage "https://agent-keepalive.gurupras.me"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.0/agent-keepalive_0.4.0_darwin_arm64.tar.gz"
-      sha256 "af145d50fb93e88d61107e8c8d18a15ea219d1c13bd6ad2fcd23aa4454c18315"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.1/agent-keepalive_0.4.1_darwin_arm64.tar.gz"
+      sha256 "1d9c3248058f2237d4367b91236924ada83b8c08e5c869987e26908009ea9441"
     end
     on_intel do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.0/agent-keepalive_0.4.0_darwin_amd64.tar.gz"
-      sha256 "b44cf9ef8afeca2bc062be9b55c9d1d324e6ab20652f82e7c259aa9865b1280d"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.1/agent-keepalive_0.4.1_darwin_amd64.tar.gz"
+      sha256 "a5f788461b8901afa55048060c967c2ff3f0746c5d50978785dcba8114058996"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.0/agent-keepalive_0.4.0_linux_arm64.tar.gz"
-      sha256 "927099784312fe92496b88a42b50a7be0095414990021f1a2e8c059bf5732d2d"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.1/agent-keepalive_0.4.1_linux_arm64.tar.gz"
+      sha256 "5c742266ccdf1c3a9bf0fd828eb33e5d319c2c793842753956fa3e43c36f50dd"
     end
     on_intel do
-      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.0/agent-keepalive_0.4.0_linux_amd64.tar.gz"
-      sha256 "be0210e86492399536baacf117054e220a6402d8ce09bbd0b00562b5deb4c74e"
+      url "https://github.com/gurupras/agent-keepalive-manager/releases/download/v0.4.1/agent-keepalive_0.4.1_linux_amd64.tar.gz"
+      sha256 "9a1c559eb04caa5975e327b278aedecda278dff445472aae521ee2c3b00ce223"
     end
   end
 
